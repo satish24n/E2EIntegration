@@ -15,8 +15,8 @@ public class TC_001 {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.get("https://www.facebook.com/");
-		driver.findElement(By.id("email")).sendKeys("satishkumar24@gmail.com");
-		driver.findElement(By.id("pass")).sendKeys("techlogi");
+		driver.findElement(By.id("email")).sendKeys("android24n@gmail.com");
+		driver.findElement(By.id("pass")).sendKeys("X1carbon");
 		driver.findElement(By.id("loginbutton")).click();
 		
 		driver.quit();
